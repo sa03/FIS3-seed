@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <title> 壹路通救援 </title>
+    <link rel="stylesheet" type="text/css" href="./css/weui.css">
+    <link rel="stylesheet" type="text/css" href="./css/global.css">
+
+    <style>.o-initLoading::before{content:" ";display: block;position:absolute;background:url(./css/img/icon-default.png) no-repeat;background-size:contain;width:53px;height:74px;top:150px;left:50%;margin-left:-26.5px;}</style>
+</head>
+<body>
+    <img src="./css/img/icon-default.png" alt="" style="width:0;height:0;position:absolute;">
+
+    <div class="o-wrap no-header">
+        <div class="o-wrapout">
+            <div id="container" class="o-container o-initLoading">
+            </div>
+            <div class="o-transition o-trans-prev"></div>
+            <div class="o-transition o-trans-next"></div>
+        </div>
+    </div>
+
+    <script data-main="main"  src="./depend/requirejs/require.js"></script>
+</body>
+</html>

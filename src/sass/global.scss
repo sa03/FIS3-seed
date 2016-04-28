@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@import "base/reset";
+@import "base/mixins";
+@import "base/header";
+@import "base/nav";
+@import "base/aside";
+@import "base/ui-dialog";
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #FBF9FE;
+    font-family: "Microsoft Yahei";
+    a{
+        text-decoration: none;
+    }
+}
